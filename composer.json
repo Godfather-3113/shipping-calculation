@@ -1,0 +1,26 @@
+{
+    "name": "laravel/shipping-calculation",
+    "description": "testing",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Alex Tarasov",
+            "email": "media.art.press2@gmail.com",
+            "homepage": "https://github.com/Godfather-3113/"
+        }
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Laravel\\ShippingCalculation\\": "src/",
+            "classes\\": "src/classes",
+            "interfaces\\\\": "src/interfaces"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
